@@ -13,11 +13,7 @@ a overview of 3d views
   📄 https://arxiv.org/abs/2403.XXXXX  
   💻 https://github.com/lkeab/gaussian-grouping  
 
-- **StyleGaussian**  
-  📄 https://arxiv.org/abs/XXXX  
-  💻 https://github.com/XXXX  
-
-## Dynamic / Video
-- **Dynamic 3D Gaussians**  
-  📄 https://arxiv.org/abs/XXXX  
-  💻 https://github.com/XXXX
+# Feed-forward 3D Reconstruction
+- **CUT 3R**
+  📄
+  💻
