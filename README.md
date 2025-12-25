@@ -3,7 +3,7 @@ a overview of 3d views
 
 # Feed-forward
 - **PanSplat**
-- 📄 https://arxiv.org/abs/2412.12096  \
+  📄 https://arxiv.org/abs/2412.12096  \
   💻 https://github.com/chengzhag/PanSplat  \
  _Tags_: `3DGS`, `panorama`, `feed-forward`
 
