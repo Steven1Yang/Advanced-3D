@@ -1,6 +1,16 @@
 # Advanced-3D
 a overview of 3d views
 
+# Feed-forward method
+
+
+
+## NeRF & Radiance Fields
+- **Mip-NeRF 360**  
+  https://arxiv.org/abs/2111.12077  
+  _Tags_: `360`, `anti-aliasing`, `ray-aware`
+
+
 # 3D Gaussian Splatting
 
 ## Core
