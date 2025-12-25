@@ -6,6 +6,7 @@ a overview of 3d views
   📄 https://arxiv.org/abs/2412.12096  
   💻 https://github.com/chengzhag/PanSplat  
  _Tags_: `3DGS`, `panorama`, `feed-forward`
+TLDR：A feed-forward method to reconstruct "spherical gaussians", enable the use of high resolution panorama images as input. 
 
 ## NeRF & Radiance Fields
 - **Mip-NeRF 360**  
