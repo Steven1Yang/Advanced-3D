@@ -1,12 +1,12 @@
 # Advanced-3D
-a overview of 3d views
+a overview of 3d vision
 
 # Feed-forward
 - **PanSplat**  
   📄 https://arxiv.org/abs/2412.12096  
   💻 https://github.com/chengzhag/PanSplat  
  _Tags_: `3DGS`, `panorama`, `feed-forward`  
-TLDR：A feed-forward method to reconstruct "spherical gaussians", enable the use of high resolution panorama images as input. 
+TLDR：A feed-forward method to reconstruct gaussians scene, enable the use of high resolution panorama images as input. 
 
 ## NeRF & Radiance Fields
 - **Mip-NeRF 360**  
