@@ -1,11 +1,11 @@
 # Advanced-3D
 a overview of 3d vision
 
-# Feed-forward
+# Reconstruction
 - **PanSplat**  
   📄 https://arxiv.org/abs/2412.12096  
   💻 https://github.com/chengzhag/PanSplat  
- _Tags_: `3DGS`, `panorama`, `feed-forward`  
+ _Tags_: `3DGS`, `panorama`, `feed-forward`,'feature pyramid network'  
 TLDR：A feed-forward method to reconstruct gaussians scene, enable the use of high resolution panorama images as input. 
 
 ## NeRF & Radiance Fields
