@@ -10,8 +10,8 @@ TLDR：A feed-forward method to reconstruct gaussians scene, enable the use of h
 
 # Depth Estimation
 - **Depth Any Panoramas**  
-  📄 [https://arxiv.org/abs/2412.12096]  
-  💻 [https://github.com/chengzhag/PanSplat ]  
+  📄 https://arxiv.org/abs/2412.12096  
+  💻 https://github.com/chengzhag/PanSplat   
  _Tags_: `depth`, `panorama`, `feed-forward`,`pseudo-label`  
 TLDR：A feed-forward method to get the depth map of panoramas, using the pseudo label to guarantee the quality of datasets.
 
