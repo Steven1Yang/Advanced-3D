@@ -1,5 +1,5 @@
 # Advanced-3D
-a overview of 3d vision
+An overview of 3d vision
 
 # Reconstruction
 - **PanSplat**  
