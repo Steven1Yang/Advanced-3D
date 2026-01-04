@@ -6,7 +6,21 @@ a overview of 3d vision
   📄 https://arxiv.org/abs/2412.12096  
   💻 https://github.com/chengzhag/PanSplat  
  _Tags_: `3DGS`, `panorama`, `feed-forward`,`feature pyramid network`  
-TLDR：A feed-forward method to reconstruct gaussians scene, enable the use of high resolution panorama images as input. 
+TLDR：A feed-forward method to reconstruct gaussians scene, enable the use of high resolution panorama images as input.
+
+# Depth Estimation
+- **Depth Any Panoramas**
+  📄 [https://arxiv.org/abs/2412.12096](https://arxiv.org/abs/2512.16913)  
+  💻 [https://github.com/chengzhag/PanSplat ](https://github.com/Insta360-Research-Team/DAP) 
+ _Tags_: `depth`, `panorama`, `feed-forward`,`pseudo-label`  
+TLDR：A feed-forward method to get the depth map of panoramas, using the pseudo label to guarantee the quality of datasets.
+
+# Depth Estimation
+- **Depth Any Panoramas**
+  📄 [https://arxiv.org/abs/2412.12096](https://arxiv.org/abs/2512.16913)  
+  💻 [https://github.com/chengzhag/PanSplat ](https://github.com/Insta360-Research-Team/DAP) 
+ _Tags_: `depth`, `panorama`, `feed-forward`,`pseudo-label`  
+TLDR：A feed-forward method to get the depth of panoramas, use the pseudo label to gar, enable the use of high resolution panorama images as input.
 
 ## NeRF & Radiance Fields
 - **Mip-NeRF 360**  
