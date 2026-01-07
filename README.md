@@ -15,6 +15,13 @@ TLDR：A feed-forward method to reconstruct gaussians scene, enable the use of h
  _Tags_: `depth`, `panorama`, `feed-forward`,`pseudo-label`  
 TLDR：A feed-forward method to get the depth map of panoramas, using the pseudo label to guarantee the quality of datasets.
 
+# Mathematical Fundamentals
+- **Spherical Position Encoding**  
+  📄 https://arxiv.org/abs/2412.12096  
+ _Tags_: `position encoding`, `spherical`, `RoPE`   
+TLDR：A RoPE-based spherical position encoding method that can function in a spherical coordinate system.
+
+
 ## NeRF & Radiance Fields
 - **Mip-NeRF 360**  
   https://arxiv.org/abs/2111.12077  
