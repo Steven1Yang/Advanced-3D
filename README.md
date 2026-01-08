@@ -21,6 +21,11 @@ TLDR：A feed-forward method to get the depth map of panoramas, using the pseudo
  _Tags_: `position encoding`, `spherical`, `RoPE`   
 TLDR：A RoPE-based spherical position encoding method that can function in a spherical coordinate system.
 
+- **SpRePE**  
+  📄 coming soon
+  💻 https://anonymous.4open.science/r/SpRePE-7357/README.md
+ _Tags_: `position encoding`, `spherical`, `RoPE`, `ViT`   
+TLDR：A new paradigm of position encoding for spherical scene, not the RoPE-based one.
 
 ## NeRF & Radiance Fields
 - **Mip-NeRF 360**  
