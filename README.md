@@ -23,7 +23,7 @@ TLDR：A RoPE-based spherical position encoding method that can function in a sp
 
 - **SpRePE**  
   📄 coming soon  
-  💻 https://anonymous.4open.science/r/SpRePE-7357/README.md
+  💻 https://anonymous.4open.science/r/SpRePE-7357/README.md  
  _Tags_: `position encoding`, `spherical`, `RoPE`, `ViT`   
 TLDR：A new paradigm of position encoding for spherical scene, not the RoPE-based one.
 
