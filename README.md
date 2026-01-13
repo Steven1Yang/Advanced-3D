@@ -14,6 +14,12 @@ TLDR：A feed-forward method to reconstruct gaussians scene, enable the use of h
  _Tags_: `3DGS`, `panorama`, `optimization`,`rasterization`  
 TLDR：A 3DGS reconstruction method based on optimization was proposed, and a rasterization renderer for panoramic images was designed.
 
+-**SC-OmniGS**  
+  📄 https://arxiv.org/abs/2502.04734  
+  💻 https://github.com/chenyingshu/sc-omnigs  
+ _Tags_: `3DGS`, `panorama`, `optimization`,`self-calibrating`  
+TLDR：A 3DGS reconstruction method with only omnidiretional image input based on optimization was proposed, which can also achieve self-calibrating.
+
 # Depth Estimation
 - **Depth Any Panoramas**  
   📄 https://arxiv.org/abs/2512.16913  
