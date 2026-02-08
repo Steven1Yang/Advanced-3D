@@ -17,8 +17,15 @@ TLDR：A 3DGS reconstruction method based on optimization was proposed, and a ra
 - **SC-OmniGS**  
   📄 https://arxiv.org/abs/2502.04734  
   💻 https://github.com/chenyingshu/sc-omnigs  
- _Tags_: `3DGS`, `panorama`, `optimization`,`self-calibrating`  
+ _Tags_: `3DGS`, `panorama`, `optimization`,`self-calibrating`   
 TLDR：An optimization-based 3D Gaussian Splatting reconstruction method for panoramic images, which is able to self-calibrate camera poses using only image inputs, and rectifies the panoramic sphere to reduce distortion effects.
+
+# Generation 
+- **DiT**  
+  📄 https://arxiv.org/abs/2212.09748  
+  💻 https://github.com/facebookresearch/DiT  
+ _Tags_: `diffusion`, `transformer`, `feed-forward`    
+TLDR：A feed-forward Transformer-based latent diffusion model that replaces U-Nets and exhibits strong compute–quality scaling.
 
 # Depth Estimation
 - **Depth Any Panoramas**  
