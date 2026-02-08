@@ -24,7 +24,7 @@ TLDR：An optimization-based 3D Gaussian Splatting reconstruction method for pan
 - **DiT**  
   📄 https://arxiv.org/abs/2212.09748  
   💻 https://github.com/facebookresearch/DiT  
- _Tags_: `diffusion`, `transformer`, `feed-forward`    
+ _Tags_: `latent diffusion`, `transformer`, `feed-forward`    
 TLDR：A feed-forward Transformer-based latent diffusion model that replaces U-Nets and exhibits strong compute–quality scaling.
 
 # Depth Estimation
