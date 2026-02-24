@@ -27,6 +27,12 @@ TLDR:An optimization-based 3D Gaussian Splatting reconstruction method for panor
  _Tags_: `latent diffusion`, `transformer`, `feed-forward`    
 TLDR:A feed-forward Transformer-based latent diffusion model that replaces U-Nets and exhibits strong compute–quality scaling.
 
+- **VBench**  
+  📄 https://arxiv.org/abs/2311.17982  
+  💻 https://github.com/Vchitect/VBench  
+ _Tags_: `benchmark`, `multidimensional-evaluation`, `prompt-suite`, `human alignment`    
+TLDR:A comprehensive benchmark for evaluating video generation models (e.g., text-to-video), introducing 16 fine-grained evaluation dimensions, carefully designed prompt suites, and large-scale human preference annotations to ensure strong alignment with human perception, enabling deeper analysis and improvement of video generation systems..
+
 # Depth Estimation
 - **Depth Any Panoramas**  
   📄 https://arxiv.org/abs/2512.16913  
