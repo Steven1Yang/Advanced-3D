@@ -61,9 +61,9 @@ TLDR:A new method to encode cross views input, which can maintain the consistenc
 # Benchmark
 
 - **VBench**  
-  📄 https://arxiv.org/abs/2311.17982
+  📄 https://arxiv.org/abs/2311.17982  
   💻 https://github.com/Vchitect/VBench  
- _Tags_: `video generation`, `benchmark`,     
+ _Tags_: `video generation`, `benchmark`     
 TLDR:A novel benchmark for video generation,which contains more dimensions than former methods.
 
 ## Semantic / Editing
