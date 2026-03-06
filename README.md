@@ -58,12 +58,13 @@ TLDR:A new paradigm of position encoding for spherical scene, not the RoPE-based
   _Tags_: `position encoding`, `cross-views`, `RoPE`, `Raymap`  
 TLDR:A new method to encode cross views input, which can maintain the consistency of the geometry struction.  
 
-# 3D Gaussian Splatting
+# Benchmark
 
-## Core
-- **3D Gaussian Splatting** (SIGGRAPH 2023)  
-  📄 https://arxiv.org/abs/2308.04079  
-  💻 https://github.com/graphdeco-inria/gaussian-splatting  
+- **VBench**  
+  📄 https://arxiv.org/abs/2311.17982
+  💻 https://github.com/Vchitect/VBench  
+ _Tags_: `video generation`, `benchmark`,     
+TLDR:A novel benchmark for video generation,which contains more dimensions than former methods.
 
 ## Semantic / Editing
 - **Gaussian Grouping** (CVPR 2024)  
