@@ -66,6 +66,12 @@ TLDR:A new method to encode cross views input, which can maintain the consistenc
  _Tags_: `video generation`, `benchmark`     
 TLDR:A novel benchmark for video generation,which contains more dimensions than former methods.
 
+- **WorldScore**  
+  📄 https://arxiv.org/abs/2504.00983  
+  💻 https://github.com/haoyi-duan/WorldScore?tab=readme-ov-file  
+ _Tags_: `video generation`, `benchmark`, `dynamic`     
+TLDR:A benchmark for video generation, which is more comprehensive than VBench, using dynamic and static metrics to measuring the quality of generated videos and generating model.
+
 ## Semantic / Editing
 - **Gaussian Grouping** (CVPR 2024)  
   📄 https://arxiv.org/abs/2403.XXXXX  
