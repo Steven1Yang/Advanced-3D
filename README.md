@@ -33,12 +33,6 @@ TLDR:A feed-forward Transformer-based latent diffusion model that replaces U-Net
  _Tags_: `controlnet`, `multi-bi`, `long sequence`    
 TLDR:A novel camera-guided video generation framework tailored for 3D reconstruction, introducing two dedicated geometric memory modules to enable precise camera control and multi-view consistent content generation, facilitating high-quality 3D scene reconstruction while supporting efficient inference via a distilled VDM backbone without joint fine-tuning.
 
-- **VBench**  
-  📄 https://arxiv.org/abs/2311.17982  
-  💻 https://github.com/Vchitect/VBench  
- _Tags_: `benchmark`, `multidimensional-evaluation`, `prompt-suite`, `human alignment`    
-TLDR:A comprehensive benchmark for evaluating video generation models (e.g., text-to-video), introducing 16 fine-grained evaluation dimensions, carefully designed prompt suites, and large-scale human preference annotations to ensure strong alignment with human perception, enabling deeper analysis and improvement of video generation systems.
-
 # Depth Estimation
 - **Depth Any Panoramas**  
   📄 https://arxiv.org/abs/2512.16913  
@@ -69,8 +63,8 @@ TLDR:A new method to encode cross views input, which can maintain the consistenc
 - **VBench**  
   📄 https://arxiv.org/abs/2311.17982  
   💻 https://github.com/Vchitect/VBench  
- _Tags_: `video generation`, `benchmark`     
-TLDR:A novel benchmark for video generation,which contains more dimensions than former methods.
+ _Tags_: `benchmark`, `multidimensional-evaluation`, `prompt-suite`, `human alignment`    
+TLDR:A comprehensive benchmark for evaluating video generation models (e.g., text-to-video), introducing 16 fine-grained evaluation dimensions, carefully designed prompt suites, and large-scale human preference annotations to ensure strong alignment with human perception, enabling deeper analysis and improvement of video generation systems.
 
 - **WorldScore**  
   📄 https://arxiv.org/abs/2504.00983  
