@@ -27,6 +27,12 @@ TLDR:An optimization-based 3D Gaussian Splatting reconstruction method for panor
  _Tags_: `latent diffusion`, `transformer`, `feed-forward`    
 TLDR:A feed-forward Transformer-based latent diffusion model that replaces U-Nets and exhibits strong compute–quality scaling.
 
+- **Wan**  
+  📄 https://arxiv.org/abs/2503.20314  
+  💻 https://github.com/Wan-Video/Wan2.2?tab=readme-ov-file  
+ _Tags_: `diffusion transformer`, `scalable pre-training`, `multi-task video generation`    
+TLDR:a comprehensive and open suite of video foundation models built on the diffusion Transformer paradigm, designed to advance video generation capabilities. Leveraging innovations such as a novel VAE, scalable pre-training strategies, large-scale data curation, and automated evaluation metrics, Wan achieves state-of-the-art performance in video quality, temporal consistency, and multi-task adaptability. The suite includes both 1.3B and 14B parameter models, supporting a wide range of tasks, including image-to-video generation, instruction-guided video editing, and personalized video synthesis. Wan is fully open-sourced, enabling both academic research and industrial applications while remaining resource-efficient and compatible with consumer-grade GPUs.
+
 - **WorldStereo**  
   📄 https://arxiv.org/abs/2603.02049  
   💻 https://github.com/FuchengSu/WorldStereo
