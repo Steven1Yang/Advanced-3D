@@ -33,6 +33,12 @@ TLDR:A feed-forward Transformer-based latent diffusion model that replaces U-Net
  _Tags_: `diffusion transformer`, `scalable pre-training`, `multi-task video generation`    
 TLDR:a comprehensive and open suite of video foundation models built on the diffusion Transformer paradigm, designed to advance video generation capabilities. Leveraging innovations such as a novel VAE, scalable pre-training strategies, large-scale data curation, and automated evaluation metrics, Wan achieves state-of-the-art performance in video quality, temporal consistency, and multi-task adaptability. The suite includes both 1.3B and 14B parameter models, supporting a wide range of tasks, including image-to-video generation, instruction-guided video editing, and personalized video synthesis. Wan is fully open-sourced, enabling both academic research and industrial applications while remaining resource-efficient and compatible with consumer-grade GPUs.
 
+- **InSpatiol-WorldFM**  
+  📄 https://arxiv.org/abs/2603.11911  
+  💻 https://github.com/inspatio/worldfm  
+ _Tags_: `diffusion transformer`, `frame model`, `3D construction condition`    
+TLDR:a light method to generate videos with frame model，maintaining consistency between different frames，which uses model distillation to reduce the steps of diffusion to achieve real-time rendering.
+
 - **WorldStereo**  
   📄 https://arxiv.org/abs/2603.02049  
   💻 https://github.com/FuchengSu/WorldStereo
