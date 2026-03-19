@@ -41,7 +41,7 @@ TLDR:a light method to generate videos with frame model，maintaining consistenc
 
 - **WorldStereo**  
   📄 https://arxiv.org/abs/2603.02049  
-  💻 https://github.com/FuchengSu/WorldStereo
+  💻 https://github.com/FuchengSu/WorldStereo   
  _Tags_: `controlnet`, `multi-bi`, `long sequence`    
 TLDR:A novel camera-guided video generation framework tailored for 3D reconstruction, introducing two dedicated geometric memory modules to enable precise camera control and multi-view consistent content generation, facilitating high-quality 3D scene reconstruction while supporting efficient inference via a distilled VDM backbone without joint fine-tuning.
 
