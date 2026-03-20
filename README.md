@@ -39,6 +39,12 @@ TLDR:a comprehensive and open suite of video foundation models built on the diff
  _Tags_: `diffusion transformer`, `frame model`, `3D construction condition`    
 TLDR:a light method to generate videos with frame model，maintaining consistency between different frames，which uses model distillation to reduce the steps of diffusion to achieve real-time rendering.This method only use the self-attention to predict the target latent, and it has been proved to gain better result than cross-attention one's.
 
+- **InSpatiol-World**  
+  📄 coming soon  
+  💻 https://github.com/inspatio/inspatio-world?tab=readme-ov-file  
+ _Tags_: `diffusion transformer`, `frame model`, `3D construction condition`, `text condition`    
+TLDR:
+
 - **WorldStereo**  
   📄 https://arxiv.org/abs/2603.02049  
   💻 https://github.com/FuchengSu/WorldStereo   
