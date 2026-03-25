@@ -57,6 +57,13 @@ TLDR:
  _Tags_: `controlnet`, `multi-bi`, `long sequence`    
 TLDR:A novel camera-guided video generation framework tailored for 3D reconstruction, introducing two dedicated geometric memory modules to enable precise camera control and multi-view consistent content generation, facilitating high-quality 3D scene reconstruction while supporting efficient inference via a distilled VDM backbone without joint fine-tuning.
 
+- **Stereo World Model**  
+  📄 https://arxiv.org/abs/2603.17375  
+  💻 https://github.com/SunYangtian/StereoWorld   
+ _Tags_: `new attn method`, `stereo videl`, `camera position encoding`    
+TLDR:A method to generate stereo video, this method proposes a new attention method using single attention in one view and using the cross attention of different viewsinstead of concatnating two tokens from different cameras to decrease the consume of GPUs, this method also proposes a camera position encoding method to connect two views.
+
+
 # Depth Estimation
 - **Depth Any Panoramas**  
   📄 https://arxiv.org/abs/2512.16913  
