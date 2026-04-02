@@ -63,6 +63,12 @@ TLDR:A novel camera-guided video generation framework tailored for 3D reconstruc
  _Tags_: `new attn method`, `stereo videl`, `camera position encoding`    
 TLDR:A method to generate stereo video, this method proposes a new attention method using single attention in one view and using the cross attention of different viewsinstead of concatnating two tokens from different cameras to decrease the consume of GPUs, this method also proposes a camera position encoding method to connect two views.
 
+- **Context-forcing**  
+  📄 https://arxiv.org/abs/2602.06028  
+  💻 https://github.com/TIGER-AI-Lab/Context-Forcing     
+ _Tags_: `self-forcing`, `distill`, `real-time`    
+TLDR:A method to generate long-sequence video,which contains more than one minutes long frames,with casual structure and self-forcing method.
+
 
 # Depth Estimation
 - **Depth Any Panoramas**  
