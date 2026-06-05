@@ -73,7 +73,7 @@ TLDR:A method to generate long-sequence video,which contains more than one minut
 - **BulletTime**  
   📄 https://arxiv.org/abs/2512.05076  
   💻 https://19reborn.github.io/Bullet4D/  
- _Tags_: `dynamic`, `time-control`, `decoupling`
+ _Tags_: `dynamic`, `time-control`, `decoupling`  
 TLDR: BulletTime injects world time and camera pose as two independent controls into a video diffusion model to decouple scene dynamics from camera motion, but it still lacks an explicit static-dynamic 4D scene representation.
 
 # Depth Estimation
