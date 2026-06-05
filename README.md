@@ -1,5 +1,5 @@
-# Advanced-3D
-An overview of 3d vision
+# Advanced_papers_reading
+An overview of read papers in recent.
 
 # Reconstruction
 - **PanSplat**  
@@ -69,6 +69,12 @@ TLDR:A method to generate stereo video, this method proposes a new attention met
  _Tags_: `self-forcing`, `distill`, `real-time`    
 TLDR:A method to generate long-sequence video,which contains more than one minutes long frames,with casual structure and self-forcing method.
 
+# 4D generation
+- **BulletTime**  
+  📄 https://arxiv.org/abs/2512.05076  
+  💻 https://19reborn.github.io/Bullet4D/  
+ _Tags_: `dynamic`, `time-control`, `decoupling`
+TLDR: BulletTime injects world time and camera pose as two independent controls into a video diffusion model to decouple scene dynamics from camera motion, but it still lacks an explicit static-dynamic 4D scene representation.
 
 # Depth Estimation
 - **Depth Any Panoramas**  
@@ -109,12 +115,3 @@ TLDR:A comprehensive benchmark for evaluating video generation models (e.g., tex
  _Tags_: `video generation`, `benchmark`, `dynamic`     
 TLDR:A benchmark for video generation, which is more comprehensive than VBench, using dynamic and static metrics to measuring the quality of generated videos and generating model.
 
-## Semantic / Editing
-- **Gaussian Grouping** (CVPR 2024)  
-  📄 https://arxiv.org/abs/2403.XXXXX  
-  💻 https://github.com/lkeab/gaussian-grouping  
-
-# Feed-forward 3D Reconstruction
-- **CUT 3R**
-  📄
-  💻
