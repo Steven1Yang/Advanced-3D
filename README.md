@@ -82,6 +82,12 @@ TLDR:BulletTime injects world time and camera pose as two independent controls i
  _Tags_: `time consist`, `space consist`, `decoupling`  
 TLDR:4Real Video generates a spatio temporally consistent 4D video grid from a fixed view video and a freeze time video by synchronizing temporal and viewpoint streams inside a diffusion transformer.
 
+- **DreamDrive**  
+  📄 https://arxiv.org/abs/2501.00601  
+  💻 https://jiageng.me/DreamDrive/  
+ _Tags_: `diffusion`, `dynamic-static decoupling`,   
+TLDR:DreamDrive is a generative 4D driving scene modeling framework from street view images. It first uses a driving video diffusion prior to synthesize 2D reference images, then lifts them into 3D with multiview stereo and Gaussian initialization. A self supervised decomposition module, based on rendering error maps, dynamic scoring, and spatio temporal clustering, separates static backgrounds from dynamic objects. The final hybrid Gaussian representation uses time independent Gaussians for static structures and time dependent Gaussians for moving objects. Given any ego vehicle trajectory, DreamDrive renders 3D consistent dynamic driving videos via Gaussian Splatting, enabling controllable scene generation, novel view synthesis, and downstream support for perception and planning.
+
 # Depth Estimation
 - **Depth Any Panoramas**  
   📄 https://arxiv.org/abs/2512.16913  
