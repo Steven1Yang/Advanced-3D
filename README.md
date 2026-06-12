@@ -88,6 +88,12 @@ TLDR:4Real Video generates a spatio temporally consistent 4D video grid from a f
  _Tags_: `diffusion`, `dynamic-static decoupling`,   
 TLDR:DreamDrive is a generative 4D driving scene modeling framework from street view images. It first uses a driving video diffusion prior to synthesize 2D reference images, then lifts them into 3D with multiview stereo and Gaussian initialization. A self supervised decomposition module, based on rendering error maps, dynamic scoring, and spatio temporal clustering, separates static backgrounds from dynamic objects. The final hybrid Gaussian representation uses time independent Gaussians for static structures and time dependent Gaussians for moving objects. Given any ego vehicle trajectory, DreamDrive renders 3D consistent dynamic driving videos via Gaussian Splatting, enabling controllable scene generation, novel view synthesis, and downstream support for perception and planning.
 
+- **DiST-4D**  
+  📄 https://arxiv.org/abs/2503.15208  
+  💻 https://github.com/royalmelon0505/dist4d  
+ _Tags_: `diffusion`, `time-spatial decoupling`    
+TLDR:DiST-4D is a feed-forward 4D driving scene generation framework that disentangles temporal prediction from spatial novel view synthesis. It uses DiST-T to generate future multi-camera RGB-D sequences from historical observations and driving controls, then converts the generated RGB-D into point clouds and projects them to novel viewpoints. DiST-S refines these sparse RGB-D projections into dense RGB-D novel views. The key idea is to use metric depth as the geometric bridge between temporal forecasting and spatial NVS, together with self-supervised cycle consistency to improve generalization to unseen trajectories, enabling dynamic 4D scene generation without per-scene optimization.
+
 # Depth Estimation
 - **Depth Any Panoramas**  
   📄 https://arxiv.org/abs/2512.16913  
