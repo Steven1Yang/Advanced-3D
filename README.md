@@ -19,4 +19,13 @@ TLDR:Classical diffusion model,this one is a random generation model, can not co
   📄 https://arxiv.org/abs/2010.02502  
   💻 https://github.com/ermongroup/ddim  
  _Tags_: `Diffusion`, `generation`, `ODEs`    
-TLDR:An acceleration method of DDPM, this method changes the depends on the Markov chain of reverse sampling process, to make the sampling process faster, and also generalizes it to the perspective of ODEs.  
+TLDR:An acceleration method of DDPM, this method changes the depends on the Markov chain of reverse sampling process, to make the sampling process faster, and also generalizes it to the perspective of ODEs.
+
+- **Score SDEs**  
+  📄 https://arxiv.org/abs/2011.13456  
+  💻 https://github.com/yang-song/score_sde   
+ _Tags_: `Diffusion`, `generation`, `SDEs`, `discrete‑to‑continuous`    
+TLDR:A method to unify the discrete process of diffusion to a continuous SDE formula, which changes the sampling process from "prediction noise - solve - prediction noise" to "prediction score - solve - prediction score",what's the most important is this method change the sampling formula from fixed one-step one to continuous reverse SDE with optional numerical solver, and also offers a method for conditioned generation. 
+
+
+
