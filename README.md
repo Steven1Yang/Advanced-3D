@@ -27,5 +27,10 @@ TLDR:An acceleration method of DDPM, this method changes the depends on the Mark
  _Tags_: `Diffusion`, `generation`, `SDEs`, `discrete‑to‑continuous`    
 TLDR:A method to unify the discrete process of diffusion to a continuous SDE formula, which changes the sampling process from "prediction noise - solve - prediction noise" to "prediction score - solve - prediction score",what's the most important is this method change the sampling formula from fixed one-step one to continuous reverse SDE with optional numerical solver, and also offers a method for conditioned generation. 
 
+- **Flow Matching**  
+  📄 https://arxiv.org/abs/2210.02747  
+  💻 https://github.com/facebookresearch/flow_matching   
+ _Tags_: `Diffusion`, `generation`, `velocity field`      
+TLDR:This method makes two innovation in my opinion, the first one is that the training trajectory is changed from the gradient of SDEs of "Score SDEs" to the velocity field by constructing a OT-path which is a staight line between the desired data x1 and gaussian noise data x0, so the desired vbelocity always be a constant function x1-x0,and the second one is that this method changes the sampling way, which uses the velocity to guide the current data xT how to move in the current sampling time T.In sampling stage, this method uses (T,xT) as the input, and the network here predicts the velocity of whole data distribution. 
 
 
