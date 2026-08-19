@@ -33,4 +33,8 @@ TLDR:A method to unify the discrete process of diffusion to a continuous SDE for
  _Tags_: `Diffusion`, `generation`, `velocity field`      
 TLDR:This method makes two innovation in my opinion, the first one is that the training trajectory is changed from the gradient of SDEs of "Score SDEs" to the velocity field by constructing a OT-path which is a staight line between the desired data x1 and gaussian noise data x0, so the desired vbelocity always be a constant function x1-x0,and the second one is that this method changes the sampling way, which uses the velocity to guide the current data xT how to move in the current sampling time T.In sampling stage, this method uses (T,xT) as the input, and the network here predicts the velocity of whole data distribution. 
 
-
+- **Rectified Flow**  
+  📄 https://arxiv.org/abs/2209.03003  
+  💻 https://github.com/gnobitab/RectifiedFlow   
+ _Tags_: `Diffusion`, `generation`, `velocity field`, `ODEs`      
+TLDR:This method is a improvement of Flow matching,the former one tries to directly get the velocity field instead of the gradient, but it ignores the quality of the path, which may produce the cross point influcing the samping process.The Rectified Flow does the refine process to make the path straight to accelerate the sampling process and increase the determinism of sampling.In detail, after the first train of Flow matching, Rectified Flow uses the sampled X0 as Z0 without sampling from gaussian noise again, and it will get a endpoint by soloving the ODE equation via euler method, when gets the endpoint Z1, it will train the velocity network via the new interpolation line Z0,Z1, since the Z0 and Z1 are deterministic parameters, so the line will be more deterministic and efficient.
