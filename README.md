@@ -6,7 +6,13 @@ An overview of read papers in recent.
   📄 https://arxiv.org/abs/2605.23458  
   💻 https://github.com/Aurora-edu/One-Forcing  
  _Tags_: `GAN`, `DMD`, `one-step`, `video generation`    
-TLDR:To solve the problem of miss-match between generated data and real data of one-step distillation, this method introduced a GAN to distiiation model to discriminate the quality of generated one. 
+TLDR:To solve the problem of miss-match between generated data and real data of one-step distillation, this method introduced a GAN to distiiation model to discriminate the quality of generated one.
+
+- **DreamFusion(SDS)**  
+  📄 https://arxiv.org/abs/2209.14988  
+  💻 https://github.com/ashawkey/stable-dreamfusion   
+ _Tags_: `SDS`, `distribution match`, `generation`    
+TLDR:The score distillation sampling method of this paper is of vital importance to distillation, it uses the frozen diffusion model to train another parameter, in detail, this method first adds noise to the generator as the DDPM does at timesteps T, and then uses the score of teacher model to guide how we should move the zt=atg+.., and since the noise is an uncorrected item, so the corrected item must be the atg, which we can use the chain function to update the parameters of g, and then we can get the desired result. 
 
 # Generation
 - **DDPM**  
