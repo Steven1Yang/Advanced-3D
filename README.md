@@ -12,7 +12,13 @@ TLDR:To solve the problem of miss-match between generated data and real data of 
   📄 https://arxiv.org/abs/2209.14988  
   💻 https://github.com/ashawkey/stable-dreamfusion   
  _Tags_: `SDS`, `distribution match`, `generation`    
-TLDR:The score distillation sampling method of this paper is of vital importance to distillation, it uses the frozen diffusion model to train another parameter, in detail, this method first adds noise to the generator as the DDPM does at timesteps T, and then uses the score of teacher model to guide how we should move the zt=atg+.., and since the noise is an uncorrected item, so the corrected item must be the atg, which we can use the chain function to update the parameters of g, and then we can get the desired result. 
+TLDR:The score distillation sampling method of this paper is of vital importance to distillation, it uses the frozen diffusion model to train another parameter, in detail, this method first adds noise to the generator as the DDPM does at timesteps T, and then uses the score of teacher model to guide how we should move the zt=atg+.., and since the noise is an uncorrected item, so the corrected item must be the atg, which we can use the chain function to update the parameters of g, and then we can get the desired result.
+
+- **ProlificDreamer(VSD)**  
+  📄 https://arxiv.org/abs/2305.16213  
+  💻 https://github.com/thu-ml/prolificdreamer   
+ _Tags_: `VSD`, `distribution match`, `generation`, `distribution match`     
+TLDR:This method proposes a new method based on SDS, since SDS just optimizes one deterministic parameter, the model may lose the robustness, so the result of generation may be worse, in order to solve this problem, VSD regards the parameters as a class of optimized item, predicts the distribution of possible parameters, and trains a new fake score generator to estimate the current distribution score, in training iteration, we add noise to the rendered image xt of parameters theta and use the xt and timestep t to get the fake score and the teacher score, the diff between two scores will lead the thetai, and finally, we can get the class of many thetas, which can form a set of distribution. 
 
 # Generation
 - **DDPM**  
