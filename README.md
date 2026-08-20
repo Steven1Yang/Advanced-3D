@@ -17,8 +17,14 @@ TLDR:The score distillation sampling method of this paper is of vital importance
 - **ProlificDreamer(VSD)**  
   📄 https://arxiv.org/abs/2305.16213  
   💻 https://github.com/thu-ml/prolificdreamer   
- _Tags_: `VSD`, `distribution match`, `generation`, `distribution match`     
-TLDR:This method proposes a new method based on SDS, since SDS just optimizes one deterministic parameter, the model may lose the robustness, so the result of generation may be worse, in order to solve this problem, VSD regards the parameters as a class of optimized item, predicts the distribution of possible parameters, and trains a new fake score generator to estimate the current distribution score, in training iteration, we add noise to the rendered image xt of parameters theta and use the xt and timestep t to get the fake score and the teacher score, the diff between two scores will lead the thetai, and finally, we can get the class of many thetas, which can form a set of distribution. 
+ _Tags_: `VSD`, `distribution match`, `generation`,      
+TLDR:This method proposes a new method based on SDS, since SDS just optimizes one deterministic parameter, the model may lose the robustness, so the result of generation may be worse, in order to solve this problem, VSD regards the parameters as a class of optimized item, predicts the distribution of possible parameters, and trains a new fake score generator to estimate the current distribution score, in training iteration, we add noise to the rendered image xt of parameters theta and use the xt and timestep t to get the fake score and the teacher score, the diff between two scores will lead the thetai, and finally, we can get the class of many thetas, which can form a set of distribution.
+
+- **DMD**  
+  📄 https://arxiv.org/abs/2311.18828  
+  💻 https://github.com/devrimcavusoglu/dmd   
+ _Tags_: `KL divergence`, `distribution match`, `generation`,      
+TLDR:DMD is a more general method to do the distillation, this method aims to solve the multi‑step‑solving problem of diffusion models, after distillation, the generator could directly generate the result from the noise, without step-by-step optimization, to achieve this goal, DMD uses two kinds of loss functions, the first one is the regression loss, this one can promote the ability of one to one generation for the DMD, since the DMD can not experience all the noise in training stage and inference stage, in training stage we use the distribution loss to guide the gradient of the student distribution, and in inference stage, we can take the model as an interpolate model, when model meet the unseen noise, it can use "interpolate" method to get the result because the generation model is a continous function.
 
 # Generation
 - **DDPM**  
