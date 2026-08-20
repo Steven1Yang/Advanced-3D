@@ -26,6 +26,12 @@ TLDR:This method proposes a new method based on SDS, since SDS just optimizes on
  _Tags_: `KL divergence`, `distribution match`, `generation`,      
 TLDR:DMD is a more general method to do the distillation, this method aims to solve the multi‑step‑solving problem of diffusion models, after distillation, the generator could directly generate the result from the noise, without step-by-step optimization, to achieve this goal, DMD uses two kinds of loss functions, the first one is the regression loss, this one can promote the ability of one to one generation for the DMD, since the DMD can not experience all the noise in training stage and inference stage, in training stage we use the distribution loss to guide the gradient of the student distribution, and in inference stage, we can take the model as an interpolate model, when model meet the unseen noise, it can use "interpolate" method to get the result because the generation model is a continous function.
 
+- **DMD2**  
+  📄 https://arxiv.org/abs/2405.14867  
+  💻 https://github.com/tianweiy/DMD2   
+ _Tags_: `KL divergence`, `distribution match`, `generation`, `GAN`     
+TLDR:DMD2 is an improvement of DMD, the former DMD has a loss of regression, this tool can help model to get the identical relationship between z0 and x0, but this loss may decrease the robustness of model since it must one deterministic result for input, the DMD2 cancelled the lreg, but the lreg can help fake score estimator to follow the teacher score, so in order to eliminate the lag of fake score estimator, the DMD2 use the TTUR to do this, in detail, this mechnism updates the fake score estimator more frequently than generator to follow the change of student ditribution, and to improve the ability of students, DMD2 also introduce a GAN discriminator to make the result of student model much more like the real data.
+
 # Generation
 - **DDPM**  
   📄 https://arxiv.org/abs/2006.11239  
